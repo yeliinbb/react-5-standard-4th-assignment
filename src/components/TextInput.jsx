@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function TextInput({ onAddText }) {
   const [inputValue, setInputValue] = useState("");
